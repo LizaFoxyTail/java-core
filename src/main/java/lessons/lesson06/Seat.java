@@ -9,7 +9,7 @@ public class Seat {
     public Seat(int seatNumber, String seatClass) {
         this.seatNumber = seatNumber;
         this.seatClass = seatClass;
-        this.isBooked = false; // по умолчанию свободное место
+        this.isBooked = false;
         this.passengerName = "";
     }
 
@@ -34,7 +34,7 @@ public class Seat {
             this.isBooked = true;
             this.passengerName = passengerName;
         } else {
-            System.out.println("❌ This seat is already booked.");
+            System.out.println("This seat is already booked.");
         }
     }
 
@@ -47,8 +47,4 @@ public class Seat {
         return seatNumber + ";" + seatClass + ";" + isBooked + ";" + passengerName;
     }
 
-    @Override
-    public String toString() {
-        return "Seat " + seatNumber + " (" + seatClass + ") - " + (isBooked ? "BOOKED by " + passengerName : "AVAILABLE");
-    }
 }
