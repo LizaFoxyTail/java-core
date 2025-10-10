@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="951fe3d6-27a9-44e0-ad35-f880f1567856" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lessons/lesson06/Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lessons/lesson06/Seat.java" afterDir="false" />
-    </list>
+    <list default="true" id="951fe3d6-27a9-44e0-ad35-f880f1567856" name="Changes" comment="Add seat.java" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,6 +81,19 @@
       <option name="presentableId" value="Default" />
       <updated>1760116416074</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add seat.java">
+      <option name="closed" value="true" />
+      <created>1760116769675</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1760116769675</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add seat.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add seat.java" />
   </component>
 </project>
